@@ -1,3 +1,13 @@
+#ExtJS Appcamp
+
+App created during appcamp meetup
+http://www.meetup.com/London-JavaScript-Community/events/224760232/
+
+This app isn't finished and won't probably be, its purpose is to show how apps in ExtJS 6 can be written.
+
+Bellow goes default README
+
+---
 # TvShows
 
 This folder is primarily a container for the top-level pieces of the application.
