@@ -8,7 +8,8 @@ Ext.define('TvShows.view.main.Main', {
         'Ext.layout.container.Border',
         'TvShows.view.main.MainController',
         'TvShows.view.main.MainModel',
-        'TvShows.view.thumbview.View'
+        'TvShows.view.thumbview.View',
+        'TvShows.view.detail.Detail'
     ],
 
     controller: 'main',
@@ -23,9 +24,8 @@ Ext.define('TvShows.view.main.Main', {
         {
              title: 'TV SHOWS',
              region: 'north',
-             xtype: 'component',
+             xtype: 'detail',
              height: 400,
-             html: 'DETAIL PANEL + HEADER'
         },
         {
             region: 'center',
