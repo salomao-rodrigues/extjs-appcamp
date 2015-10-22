@@ -25,7 +25,7 @@ Ext.define('TvShows.view.main.Main', {
              title: 'TV SHOWS',
              region: 'north',
              xtype: 'detail',
-             height: 400,
+             height: 400
         },
         {
             region: 'center',
