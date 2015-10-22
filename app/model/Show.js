@@ -2,7 +2,7 @@ Ext.define('TvShows.model.Show', {
     extend: 'Ext.data.Model',
 
     requires: [
-        'Ext.data.field.Date',
+        'Ext.data.field.Date'
     ],
 
     fields: [
@@ -16,7 +16,7 @@ Ext.define('TvShows.model.Show', {
             mapping: 'show.first_aired'
         },
         { name: 'title', type: 'string', mapping: 'show.title' },
-        { name: 'episode', type: 'auto', mapping: 'show.year' },
+        { name: 'episode', type: 'auto', mapping: 'show.episode' },
         { name: 'genre', type: 'auto', mapping: 'show.genre' },
         { name: 'overview', type: 'string', mapping: 'show.overview' },
         { name: 'network', type: 'string', mapping: 'show.network' },
@@ -26,6 +26,5 @@ Ext.define('TvShows.model.Show', {
         { name: 'fanart', type: 'string', mapping: 'show.images.fanart.full' },
         { name: 'year', type: 'int', mapping: 'show.year' },
         { name: 'slug', type: 'string', mapping: 'show.ids.slug' }
-
     ]
 });
